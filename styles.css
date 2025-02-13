@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-bottom: 2%;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+div.navigation {
+    background-color: rgb(214, 24, 24);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.home {
+    font-size: x-large;
+    font-family: serif;
+    background-color: rgb(227, 236, 57); 
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 6%;
+    cursor: pointer;
+  }
+  
+.home:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+.reviews {
+    font-size: x-large;
+    font-family: serif;
+    background-color: rgb(227, 236, 57); 
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 7%;
+    cursor: pointer;
+
+  }
+  
+.reviews:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+.top-games {
+    font-size: x-large;
+    font-family: serif;
+    background-color: rgb(227, 236, 57);
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 10%;
+    cursor: pointer;
+
+  }
+  
+.top-games:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+.about {
+    font-size: x-large;
+    font-family: serif;
+    background-color: rgb(227, 236, 57);
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 6%;
+    cursor: pointer;
+
+  }
+  
+.about:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+.contact {
+    font-size: x-large;
+    font-family: serif;
+    background-color: rgb(227, 236, 57); 
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    width: 7%;
+    cursor: pointer;
+
+  }
+  
+.contact:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+main {
+    padding: 3%;
+    color: #ffffff;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #fcfcfc;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+}
+
+footer {
+    background-color: rgb(214, 24, 24);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    font-size: xx-small;
+}
+
+
